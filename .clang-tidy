@@ -1,0 +1,24 @@
+---
+HeaderFilterRegex: 'libcsc/.*'
+Checks: >
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  *,
+  -fuchsia-*,
+  -llvmlibc-*,
+  -llvm-header-guard,
+  -modernize-use-nodiscard,
+  -modernize-use-trailing-return-type,
+  -cppcoreguidelines-owning-memory,
+  -google-runtime-references,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -cert-err58-cpp,
+  -readability-magic-numbers,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -cppcoreguidelines-pro-bounds-constant-array-index,
+  -misc-non-private-member-variables-in-classes,
+  -google-readability-braces-around-statements,
+  -hicpp-braces-around-statements,
+  -readability-braces-around-statements,
+  -cert-dcl21-cpp
+...
